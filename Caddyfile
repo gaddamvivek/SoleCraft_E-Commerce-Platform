@@ -1,0 +1,5 @@
+:80 {
+reverse_proxy solecraft:5000
+}
+
+# Be sure to replace example.com with your actual domain and email address

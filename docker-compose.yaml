@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  solecraft:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: solecraft
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongodb
+    environment:
+      - PORT=5000
+      - MONGO_URI=mongodb://mongodb:27017/solecraftDB # Adjust this with your DB name
+
+  mongodb:
+    image: mongo:latest
+    container_name: solecraft-mongodb
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+
+  # If you want to include Caddy, uncomment the following section:
+  caddy:
+    image: caddy
+    ports:
+      - "80:80"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  mongo-data:
+  caddy_data:
+  caddy_config:

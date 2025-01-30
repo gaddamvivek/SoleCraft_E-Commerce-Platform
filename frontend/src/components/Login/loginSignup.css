@@ -1,0 +1,164 @@
+/* General styling */
+body {
+    background-color: #add8ea; /* Light background color for the page */
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 100%; /* Ensure the container does not overflow */
+    max-width: 400px; /* Adjusted for a standard layout */
+    margin: 80px auto; /* Center the container */
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header div {
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Name container */
+.nameContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.userName input {
+    width: 100%; /* Ensure full width of each input */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Input fields styling */
+.inputContainer {
+    margin: 10px 0;
+    position: relative;
+}
+
+.inputContainer input {
+    width: 100%; /* Full width of the container */
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.inputContainer input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+/* Password toggle */
+.password-toggle {
+    position: absolute;
+    right: 10px; /* Adjust for alignment */
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+/* Submit button styling */
+.submitContainer {
+    margin-top: 20px;
+}
+
+.submit {
+    width: 100%; /* Full width */
+    padding: 12px 0;
+    text-align: center;
+    background-color: rgb(21, 88, 232);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit:hover {
+    background-color: #38689b;
+    transform: translateY(-2px);
+}
+
+.submit:active {
+    background-color: rgb(21, 88, 232);
+}
+
+/* Button layout for login/signup */
+.loginsignupbtns {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Forget password link */
+.forget-password {
+    text-align: center;
+    font-size: 14px;
+    color: #007BFF; /* Default link color */
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: 500;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.forget-password:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #0056b3; /* Darker shade on hover */
+}
+
+/* Register link */
+.Registerhere {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.register-link {
+    color: #007BFF; /* Link color */
+    cursor: pointer;
+    font-weight: bold; /* Emphasize the link */
+    position: relative;
+    transition: color 0.3s ease; /* Smooth color change */
+}
+
+.register-link::before {
+    position: absolute;
+    left: -18px; /* Adjust left position */
+    font-size: 18px;
+    opacity: 0; /* Start with the arrow hidden */
+    transition: opacity 0.3s ease; /* Smooth opacity transition */
+}
+
+.register-link:hover {
+    color: #0056b3; /* Darken the color on hover */
+}
+
+.register-link:hover::before {
+    opacity: 1; /* Show the arrow when hovered */
+}

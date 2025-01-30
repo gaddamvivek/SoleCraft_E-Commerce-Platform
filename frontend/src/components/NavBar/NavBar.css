@@ -1,0 +1,110 @@
+/* CSS for NavBar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #103761; 
+  color: white;
+  }
+
+/* CSS for NavBar logo */
+.NvBrLogo img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10%;
+}
+
+/* CSS for title */
+.title {
+  flex: 1; 
+  text-align: center; 
+}
+
+.title h1 {
+  font-size: 3rem; 
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder; 
+  margin: 0; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+}
+
+/* CSS for NavBar buttons */
+.navbar-buttons {
+  display: flex;
+  gap: 20px; 
+}
+
+.navbar-button {
+  cursor: pointer; 
+}
+
+.navbar-button img {
+  height: 60px; 
+  width: 60px; 
+  border-radius: 20%;
+  transition: transform 0.3s; 
+}
+
+.navbar-button:hover img {
+  transform: scale(1.1); 
+}
+
+/* Style for the navbar button */
+.navbar-button {
+  position: relative; /* To position the dropdown content below */
+}
+
+/* Style for the dropdown toggle */
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+/* Hide the dropdown content by default */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position it directly below the button */
+  right: 0;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+/* Add spacing between items */
+.dropdown-content > * {
+  margin-bottom: 8px; /* Adjust as needed for spacing */
+}
+
+/* Remove the margin from the last item */
+.dropdown-content > *:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Show the dropdown when the parent is hovered */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Additional styling for the dropdown content */
+.dropdown-content div {
+  margin-bottom: 8px;
+}
+
+.dropdown-content button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.dropdown-content button:hover {
+  background-color: #d32f2f;
+}
