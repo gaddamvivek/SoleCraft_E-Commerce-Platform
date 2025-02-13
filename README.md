@@ -1,35 +1,4 @@
-assignment2-gaddamvivek
-
-**Installation Setup:**
-
-**To run the Application:**
-
-Repository Link: `https://github.com/ICSI518/assignment2-gaddamvivek.git`
-
-Public IPv$ Address : `44.204.39.165`
-
-To Run Docker:
-
-Go to the directory:
-
-assignemnt2-gaddamvivek/
-
-    
-build: `docker compose build`
-
-then run: `docker compose up`
-    
-
-Deployed using AWS Cloud, To Run:
-
-Copy the public IPs 34.207.234.216 and paste in browser with port. Port used is 5000: 
-
-`http://http://44.204.39.165/`     
-
-you will be redirected to the home page
-
-
-Referenced OpenAI to implement, local storage, toast container, and minor logics for the implementation of the functionality, and at places for styling.
+Implemented, local storage, toast container, and minor logics for the implementation of the functionality, and at places for styling.
 
 Used OpenAi, internet, for inventory data (item details).
 
@@ -81,3 +50,17 @@ Toast Container for indicating item present in wishlist or cart
 **Add to Wishlist/Cart:** Hover over any product and add it to your wishlist or cart.
     
 **Cart Management:** Users can view and manage the items in their cart.
+
+**Installation Setup:**
+
+**To run the Application:**
+
+To Run Docker:
+
+Go to the directory
+    
+build: `docker compose build`
+
+then run: `docker compose up`
+    
+Deployed using AWS Cloud
