@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import './Wishlist.css';
+import imageMap from '../../resource/imageMap';
 
 const Wishlist = () => {
   const [wishlist, setWishlist] = useState([]);
@@ -94,7 +95,7 @@ const Wishlist = () => {
         <div className="prdctGrd">
           {wishlist.map((item) => (
             <div className="product-card" key={item.id}>
-              <img src={item.image} alt={item.name} className="prdcyImg" loading="lazy" />
+              <img src={imageMap[item.productId] || item.image} alt={item.name} className="prdcyImg" loading="lazy" />
               <div className="prdctDetail">
                 <h5>{item.name}</h5>
                 <p>{item.description}</p>

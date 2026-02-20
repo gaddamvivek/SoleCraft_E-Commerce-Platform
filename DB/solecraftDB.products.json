@@ -1,0 +1,156 @@
+[{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b995"
+  },
+  "id": 9,
+  "name": "Havaianas Flip Flops",
+  "description": "Havaianas Flip Flops are lightweight and comfortable for everyday wear.",
+  "price": 25,
+  "brand": "Havaianas",
+  "type": "Flip Flops",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/flipflop1.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b997"
+  },
+  "id": 11,
+  "name": "Reef Fanning Flip Flops",
+  "description": "Reef Fanning Flip Flops feature a cushioned footbed and a bottle opener on the sole.",
+  "price": 35,
+  "brand": "Reef",
+  "type": "Flip Flops",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/flipflop3.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b99a"
+  },
+  "id": 2,
+  "name": "Adidas Ultraboost",
+  "description": "The Adidas Ultraboost features a responsive Boost midsole and a breathable Primeknit upper.",
+  "price": 180,
+  "brand": "Adidas",
+  "type": "Sneakers",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/adidas.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b996"
+  },
+  "id": 10,
+  "name": "Old Navy Flip Flops",
+  "description": "Old Navy Flip Flops offer comfort and style for summer outings.",
+  "price": 15,
+  "brand": "Old Navy",
+  "type": "Flip Flops",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/flipflop2.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b99b"
+  },
+  "id": 3,
+  "name": "Skechers GOwalk",
+  "description": "Skechers GOwalk offers exceptional comfort and support for all-day wear.",
+  "price": 75,
+  "brand": "Skechers",
+  "type": "Sneakers",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/adidas1.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b99c"
+  },
+  "id": 4,
+  "name": "Puma RS-X",
+  "description": "Puma RS-X combines retro style with modern comfort and technology.",
+  "price": 110,
+  "brand": "Puma",
+  "type": "Sneakers",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/puma.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b99d"
+  },
+  "id": 5,
+  "name": "New Balance 574",
+  "description": "New Balance 574 is a classic sneaker with premium materials and superior cushioning.",
+  "price": 85,
+  "brand": "New Balance",
+  "type": "Sneakers",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/nb.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b99e"
+  },
+  "id": 6,
+  "name": "Clarks Desert Boot",
+  "description": "The Clarks Desert Boot is a classic ankle boot made with premium suede for all-day comfort.",
+  "price": 120,
+  "brand": "Clarks",
+  "type": "Boots",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/clark.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b99f"
+  },
+  "id": 7,
+  "name": "Dr. Martens 1460",
+  "description": "Dr. Martens 1460 boots are known for their durable leather and air-cushioned soles.",
+  "price": 150,
+  "brand": "Dr. Martens",
+  "type": "Boots",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/mrt.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b9a0"
+  },
+  "id": 8,
+  "name": "Timberland 6\" Premium Boot",
+  "description": "Timberland's classic 6\" Premium Boot offers waterproof protection and all-day comfort.",
+  "price": 200,
+  "brand": "Timberland",
+  "type": "Boots",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/tim.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b998"
+  },
+  "id": 12,
+  "name": "Crocs Classic Flip Flops",
+  "description": "Crocs Classic Flip Flops provide comfort with a soft, cushioned footbed.",
+  "price": 30,
+  "brand": "Crocs",
+  "type": "Flip Flops",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/flipflop4.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6998cf25b4d7bb0ff268b999"
+  },
+  "id": 1,
+  "name": "Air Max 270",
+  "description": "Nike Air Max 270 is designed for lifestyle and comfort, featuring a large Max Air unit.",
+  "price": 150,
+  "brand": "Nike",
+  "type": "Sneakers",
+  "image": "https://s3.us-east-2.amazonaws.com/products.img/airmax.jpg",
+  "__v": 0
+}]

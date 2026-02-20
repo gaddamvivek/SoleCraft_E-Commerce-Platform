@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Home.css';
 import bgImage from '../Assets/bg2.jpg';
+import imageMap from '../../resource/imageMap';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
@@ -204,7 +205,7 @@ const AddToWshLstActn = async (product) => {
                 onMouseEnter={() => setHovrd(product.id)}
                 onMouseLeave={() => setHovrd(null)}
               >
-                <img src={product.image} alt={product.name} className="prdcyImg" loading="lazy" />
+                <img src={imageMap[product.id] || product.image} alt={product.name} className="prdcyImg" loading="lazy" />
                 <div className="prdctDetail">
                   <h5>{product.name}</h5>
                   <p>{product.description}</p>

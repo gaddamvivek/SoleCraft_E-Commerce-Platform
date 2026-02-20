@@ -5,7 +5,6 @@ const staticData = require('./resource/test.json');
 var express = require('express');
 var path = require('path');
 const cors = require('cors'); 
-const PORT = process.env.PORT || 5000;
 // var cookieParser = require('cookie-parser');
 // var logger = require('morgan');
 var mongoose = require('mongoose');
@@ -52,10 +51,6 @@ mongoose.connect(process.env.MONGO_URI, {
 .catch((error) => {
   console.error('MongoDB connection error:', error);
   process.exit(1); // Exit the process on error
-});
-
-app.listen(PORT, () => {
-  console.log(`${PORT}`);
 });
 
 // View engine setup

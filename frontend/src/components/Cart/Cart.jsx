@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Cart.css';
 import axios from 'axios';
 import { toast } from 'react-toastify'; // Import toast if using react-toastify
+import imageMap from '../../resource/imageMap';
 
 /* To change quantity in the cart */
 const QntBtn = ({ startQuant, qtyChangeAction }) => {
@@ -181,7 +182,7 @@ const Cart = () => {
                 onMouseEnter={() => setHovered(item.id)}   
                 onMouseLeave={() => setHovered(null)}       
               >
-                <img src={item.image} alt={item.name} />
+                <img src={imageMap[item.productId] || item.image} alt={item.name} />
                 <h5>{item.name}</h5>
                 <p>{item.description}</p>
                 <p className="product-price">${item.price.toFixed(2)}</p>
