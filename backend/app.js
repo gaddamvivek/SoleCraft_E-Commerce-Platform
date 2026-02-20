@@ -53,6 +53,11 @@ mongoose.connect(process.env.MONGO_URI, {
   process.exit(1); // Exit the process on error
 });
 
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
 // View engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
